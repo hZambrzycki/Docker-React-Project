@@ -17,7 +17,6 @@ A production-friendly **React** setup containerized with **Docker**. It includes
 
 ## 🗂️ Project layout
 
-.
 ├─ Dockerfile
 ├─ Dockerfile.dev
 ├─ docker-compose.yml
@@ -105,3 +104,4 @@ jobs:
           context: .
           push: false
           tags: ghcr.io/<owner>/<repo>:latest
+
